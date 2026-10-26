@@ -1,0 +1,44 @@
+{
+  "content": [
+    {
+      "id": "qs0001",
+      "elType": "section",
+      "settings": { "layout": "boxed", "background_background": "classic", "background_color": "#6e1423", "padding": { "unit": "px", "top": "40", "bottom": "40" } },
+      "elements": [
+        {
+          "id": "qs0002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "qs0003", "elType": "widget", "widgetType": "heading", "settings": { "title": "Quiénes somos", "header_size": "h1", "title_color": "#FFFFFF" }, "elements": [] }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "qs0004",
+      "elType": "section",
+      "settings": { "layout": "boxed" },
+      "elements": [
+        {
+          "id": "qs0005",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "qs0006", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Los jesuitas somos una Orden Religiosa de la Iglesia Católica compuesta por sacerdotes y hermanos que estamos esparcidos por todo el mundo desarrollando actividades espirituales, sociales y educativas para la sociedad en general, con una especial preferencia por las personas menos favorecidas.</p>" }, "elements": [] },
+            { "id": "qs0007", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Nos conocemos como la Compañía de Jesús, fundada por Ignacio de Loyola y reconocida oficialmente por la autoridad eclesiástica en 1540, con confirmación papal a lo largo de los siglos siguientes.</p>" }, "elements": [] },
+            { "id": "qs0008", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>En Córdoba, nuestra comunidad acompaña la vida espiritual del barrio y de quienes se acercan a la parroquia, sosteniendo la celebración de la Eucaristía, el acompañamiento pastoral y propuestas de espiritualidad ignaciana.</p>" }, "elements": [] }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Quiénes somos",
+  "type": "page"
+}

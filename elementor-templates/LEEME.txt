@@ -1,0 +1,60 @@
+CÓMO IMPORTAR ESTAS PLANTILLAS EN ELEMENTOR
+=============================================
+
+Qué es esto
+-----------
+4 archivos .json, uno por página: home.json (Inicio), quienes-somos.json,
+contacto.json, prevencion-de-abusos.json. Cada uno es el CONTENIDO de esa
+página (no el header/menú ni el footer, que ya existen en el sitio real
+y se siguen usando tal cual están).
+
+Importante: faltan subir las imágenes
+--------------------------------------
+Dentro de cada .json hay imágenes marcadas con un texto que empieza con
+"REEMPLAZAR-subir-assets/img/...". Eso es a propósito: son fotos reales
+(las del carrusel de Avisos y los logos de instituciones) que están en
+la carpeta assets/img/ de este mismo proyecto. Antes de importar:
+
+1. Entrá a wp-admin → Medios → Añadir nuevo
+2. Subí TODOS los archivos de assets/img/ (foto-3.webp, foto-4.webp,
+   foto-5.webp, foto-6.webp, logo-aru.jpg, logo-manos-abiertas.png,
+   logo-jesuits.jpg, logo-arquidiocesis.jpg, logo-circular.png,
+   logo-rectangular.webp)
+3. Importá la plantilla (pasos abajo)
+4. Para cada imagen que se vea rota, hacé clic en el widget de imagen
+   dentro de Elementor → botón "Choose Image" → pestaña "Media Library"
+   → elegí el archivo correspondiente (mismo nombre que viste en el
+   paso 2). Esto es normal, es la forma estándar de Elementor de
+   referenciar imágenes, no hay otra vuelta.
+
+También falta: subir la imagen real de "Horarios de Misa" (la que
+mandaste por captura) y reemplazar el cartel rayado que dice
+"Falta imagen real: Horarios de Misa" en la sección de Avisos de Inicio.
+
+Pasos para importar cada página
+--------------------------------
+1. wp-admin → Plantillas (Templates) → Saved Templates
+2. Botón "Import Templates" (arriba)
+3. Elegí el archivo .json (por ejemplo home.json)
+4. Click en "Import Now"
+5. Te va a aparecer en la lista de plantillas guardadas. Hacé clic en
+   "Edit with Elementor" para abrirla y revisar que se vea bien,
+   reemplazar las imágenes (ver arriba) y completar lo que falte.
+6. Para que sea el contenido real de una página del sitio: abrí esa
+   página existente (Inicio, Quiénes somos, Contacto, Prevención de
+   abusos) con Elementor, y desde el ícono de carpeta (Insertar
+   plantilla) → "My Templates" → elegí la plantilla recién importada
+   → Insert. Reemplaza el contenido viejo de la página por el nuevo.
+
+Un consejo: hacelo primero en un WordPress de prueba (local, con la
+app "Local"), no directo en el sitio real, hasta confirmar que se ve
+bien y que arreglamos la inyección de malware que encontramos en el
+sitio original.
+
+Pendientes que quedaron marcados en el propio contenido
+---------------------------------------------------------
+- Imagen real de "Horarios de Misa" (sección Avisos, Inicio)
+- Confirmar que el link de YouTube (@IglesiaCompaniaDeJesusCba) es el
+  canal oficial correcto
+- Horarios de misa en texto (no aparecían en ninguna página del sitio
+  original — hay que conseguirlos con el párroco)

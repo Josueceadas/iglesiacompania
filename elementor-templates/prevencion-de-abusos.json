@@ -1,0 +1,52 @@
+{
+  "content": [
+    {
+      "id": "pa0001",
+      "elType": "section",
+      "settings": { "layout": "boxed", "background_background": "classic", "background_color": "#6e1423", "padding": { "unit": "px", "top": "40", "bottom": "40" } },
+      "elements": [
+        {
+          "id": "pa0002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "pa0003", "elType": "widget", "widgetType": "heading", "settings": { "title": "Prevención de abusos", "header_size": "h1", "title_color": "#FFFFFF" }, "elements": [] }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "pa0004",
+      "elType": "section",
+      "settings": { "layout": "boxed" },
+      "elements": [
+        {
+          "id": "pa0005",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "pa0006", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>La Compañía de Jesús se une al Papa Francisco en su condena contra abusos a menores y personas vulnerables, comprometiéndose con acciones concretas de prevención y protección en todas sus obras.</p>" }, "elements": [] },
+            { "id": "pa0007", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>La Provincia cuenta con un Protocolo aprobado en 2010 y revisado en 2017. El P. Álvaro Pacheco, S.J. desempeña el rol de delegado provincial para prevención y denuncias de abusos en Argentina y Uruguay, acompañado por un Equipo de Apoyo multidisciplinario que gestiona los casos con imparcialidad y profesionalismo.</p>" }, "elements": [] },
+            {
+              "id": "pa0008",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"background:#fff;border:1px solid #e6dcc9;border-left:4px solid #c9a24b;border-radius:10px;padding:1.25rem 1.5rem;margin:1.5rem 0;max-width:42em\"><strong>Canal de denuncias</strong><p style=\"margin:.5rem 0 0\">Información, testimonios o denuncias sobre comportamientos inadecuados de miembros de la organización pueden enviarse a:<br><a href=\"mailto:delegado@jesuitas.org.ar\">delegado@jesuitas.org.ar</a></p></div>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Prevención de abusos",
+  "type": "page"
+}

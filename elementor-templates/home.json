@@ -1,0 +1,443 @@
+{
+  "content": [
+    {
+      "id": "sec0001",
+      "elType": "section",
+      "settings": { "layout": "boxed" },
+      "elements": [
+        {
+          "id": "col0001",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "wid0001",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Avisos", "header_size": "h2" },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec0002",
+      "elType": "section",
+      "settings": { "layout": "boxed", "gap": "default" },
+      "elements": [
+        {
+          "id": "col0002",
+          "elType": "column",
+          "settings": { "_column_size": 20 },
+          "elements": [
+            {
+              "id": "wid0002",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;text-align:center;padding:1rem;background:repeating-linear-gradient(45deg,#f1e6d8,#f1e6d8 10px,#e6dcc9 10px,#e6dcc9 20px);color:#6b5f55;font-weight:600;border-radius:10px\">Falta imagen real: Horarios de Misa</div>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0003",
+          "elType": "column",
+          "settings": { "_column_size": 20 },
+          "elements": [
+            {
+              "id": "wid0003",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "REEMPLAZAR-subir-assets/img/foto-4.webp", "id": "" },
+                "link": { "url": "https://www.instagram.com/p/DeE-u83lKmz/", "is_external": "true", "nofollow": "" }
+              },
+              "elements": []
+            },
+            {
+              "id": "wid0004",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p style=\"text-align:center\">4 de octubre</p>" },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0004",
+          "elType": "column",
+          "settings": { "_column_size": 20 },
+          "elements": [
+            {
+              "id": "wid0005",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "REEMPLAZAR-subir-assets/img/foto-5.webp", "id": "" },
+                "link": { "url": "https://www.instagram.com/p/DeE-SpIAUEt/", "is_external": "true", "nofollow": "" }
+              },
+              "elements": []
+            },
+            {
+              "id": "wid0006",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p style=\"text-align:center\">4 de octubre</p>" },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0005",
+          "elType": "column",
+          "settings": { "_column_size": 20 },
+          "elements": [
+            {
+              "id": "wid0007",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "REEMPLAZAR-subir-assets/img/foto-6.webp", "id": "" },
+                "link": { "url": "https://www.instagram.com/p/DcLrrTrRaFq/", "is_external": "true", "nofollow": "" }
+              },
+              "elements": []
+            },
+            {
+              "id": "wid0008",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p style=\"text-align:center\">18 de agosto</p>" },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0006",
+          "elType": "column",
+          "settings": { "_column_size": 20 },
+          "elements": [
+            {
+              "id": "wid0009",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "REEMPLAZAR-subir-assets/img/foto-3.webp", "id": "" },
+                "link": { "url": "https://www.instagram.com/p/Dbrw_UTNVhv/", "is_external": "true", "nofollow": "" }
+              },
+              "elements": []
+            },
+            {
+              "id": "wid0010",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p style=\"text-align:center\">5 de agosto</p>" },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec0003",
+      "elType": "section",
+      "settings": { "layout": "boxed" },
+      "elements": [
+        {
+          "id": "col0007",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "wid0011",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": { "editor": "<p style=\"text-align:center\"><a href=\"https://www.instagram.com/iglesiadelacompania/\" target=\"_blank\">Ver todas las publicaciones en Instagram →</a></p>" },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec0004",
+      "elType": "section",
+      "settings": { "layout": "boxed", "gap": "extended" },
+      "elements": [
+        {
+          "id": "col0008",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            { "id": "wid0012", "elType": "widget", "widgetType": "heading", "settings": { "title": "Misa Diaria", "header_size": "h2" }, "elements": [] },
+            { "id": "wid0013", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Acompañanos en la celebración de la Eucaristía. Podés seguirla en vivo o ver la última misa transmitida.</p>" }, "elements": [] },
+            { "id": "wid0014", "elType": "widget", "widgetType": "button", "settings": { "text": "Ver canal de YouTube", "link": { "url": "https://www.youtube.com/@IglesiaCompaniaDeJesusCba", "is_external": "true", "nofollow": "" } }, "elements": [] }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0009",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "wid0015",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"ihs-video-facade\" data-embed-src=\"https://www.youtube-nocookie.com/embed/videoseries?list=PLY6_eBS4P194ys1LKeWD6p-zk7Vc2kVFI&autoplay=1\" role=\"button\" tabindex=\"0\" aria-label=\"Reproducir playlist de la Misa Diaria\" style=\"position:relative;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden;cursor:pointer\"><img src=\"https://i.ytimg.com/vi/CA-_H7rdUVA/hqdefault.jpg\" alt=\"\" loading=\"lazy\" style=\"width:100%;height:100%;object-fit:cover;opacity:.85\"><span aria-hidden=\"true\" style=\"position:absolute;inset:0;display:flex;align-items:center;justify-content:center\"><span style=\"width:68px;height:48px;background:#6e1423;border-radius:14px;clip-path:polygon(20% 10%,20% 90%,85% 50%)\"></span></span></div><script>(function(){var f=document.currentScript.previousElementSibling;function load(){var s=f.getAttribute('data-embed-src');if(!s||f.querySelector('iframe'))return;var i=document.createElement('iframe');i.src=s;i.title='Misa Diaria';i.loading='lazy';i.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';i.allowFullscreen=true;i.style.cssText='position:absolute;inset:0;width:100%;height:100%;border:0';f.appendChild(i);}f.addEventListener('click',load);f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();load();}});})();</script>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec0005",
+      "elType": "section",
+      "settings": { "layout": "boxed", "gap": "default" },
+      "elements": [
+        {
+          "id": "col0010",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            { "id": "wid0016", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "REEMPLAZAR-subir-assets/img/logo-aru.jpg", "id": "" }, "link": { "url": "https://jesuitasaru.org/", "is_external": "true" } }, "elements": [] }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0011",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            { "id": "wid0017", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "REEMPLAZAR-subir-assets/img/logo-manos-abiertas.png", "id": "" }, "link": { "url": "https://www.manosabiertas.org.ar/", "is_external": "true" } }, "elements": [] }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0012",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            { "id": "wid0018", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "REEMPLAZAR-subir-assets/img/logo-jesuits.jpg", "id": "" }, "link": { "url": "https://www.jesuits.org/es/", "is_external": "true" } }, "elements": [] }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0013",
+          "elType": "column",
+          "settings": { "_column_size": 25 },
+          "elements": [
+            { "id": "wid0019", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "REEMPLAZAR-subir-assets/img/logo-arquidiocesis.jpg", "id": "" }, "link": { "url": "https://www.arzobispadocba.org.ar/", "is_external": "true" } }, "elements": [] }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec0006",
+      "elType": "section",
+      "settings": { "layout": "boxed", "gap": "extended" },
+      "elements": [
+        {
+          "id": "col0014",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            { "id": "wid0020", "elType": "widget", "widgetType": "heading", "settings": { "title": "Espiritualidad", "header_size": "h2" }, "elements": [] },
+            { "id": "wid0021", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Recursos para la oración personal y comunitaria, propuestas ignacianas y reflexiones para acompañar el camino de fe.</p>" }, "elements": [] }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0015",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "wid0022",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"ihs-video-facade\" data-embed-src=\"https://www.youtube-nocookie.com/embed/videoseries?list=PLY6_eBS4P196KMjzmGDms_6PXhXW8fA0B&autoplay=1\" role=\"button\" tabindex=\"0\" aria-label=\"Reproducir playlist de Espiritualidad\" style=\"position:relative;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden;cursor:pointer\"><img src=\"https://i.ytimg.com/vi/kgLCrSIwZSk/hqdefault.jpg\" alt=\"\" loading=\"lazy\" style=\"width:100%;height:100%;object-fit:cover;opacity:.85\"><span aria-hidden=\"true\" style=\"position:absolute;inset:0;display:flex;align-items:center;justify-content:center\"><span style=\"width:68px;height:48px;background:#6e1423;border-radius:14px;clip-path:polygon(20% 10%,20% 90%,85% 50%)\"></span></span></div><script>(function(){var f=document.currentScript.previousElementSibling;function load(){var s=f.getAttribute('data-embed-src');if(!s||f.querySelector('iframe'))return;var i=document.createElement('iframe');i.src=s;i.title='Espiritualidad';i.loading='lazy';i.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';i.allowFullscreen=true;i.style.cssText='position:absolute;inset:0;width:100%;height:100%;border:0';f.appendChild(i);}f.addEventListener('click',load);f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();load();}});})();</script>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec0007",
+      "elType": "section",
+      "settings": { "layout": "boxed", "gap": "extended" },
+      "elements": [
+        {
+          "id": "col0016",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            { "id": "wid0023", "elType": "widget", "widgetType": "heading", "settings": { "title": "Rezamos con el Papa León", "header_size": "h2" }, "elements": [] },
+            { "id": "wid0024", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Catequesis, audiencias y mensajes del Santo Padre, en videos que se actualizan solos a medida que salen nuevos.</p>" }, "elements": [] }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0017",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "wid0025",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"ihs-video-facade\" data-embed-src=\"https://www.youtube-nocookie.com/embed/videoseries?list=PLGPDOIdMOZigx5lkndwP9GTO5AzSfHPJR&autoplay=1\" role=\"button\" tabindex=\"0\" aria-label=\"Reproducir playlist Rezamos con el Papa León\" style=\"position:relative;aspect-ratio:16/9;background:#000;border-radius:10px;overflow:hidden;cursor:pointer\"><img src=\"https://i.ytimg.com/vi/eTjkfBZYjqI/hqdefault.jpg\" alt=\"\" loading=\"lazy\" style=\"width:100%;height:100%;object-fit:cover;opacity:.85\"><span aria-hidden=\"true\" style=\"position:absolute;inset:0;display:flex;align-items:center;justify-content:center\"><span style=\"width:68px;height:48px;background:#6e1423;border-radius:14px;clip-path:polygon(20% 10%,20% 90%,85% 50%)\"></span></span></div><script>(function(){var f=document.currentScript.previousElementSibling;function load(){var s=f.getAttribute('data-embed-src');if(!s||f.querySelector('iframe'))return;var i=document.createElement('iframe');i.src=s;i.title='Rezamos con el Papa León';i.loading='lazy';i.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';i.allowFullscreen=true;i.style.cssText='position:absolute;inset:0;width:100%;height:100%;border:0';f.appendChild(i);}f.addEventListener('click',load);f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();load();}});})();</script>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec0008",
+      "elType": "section",
+      "settings": { "layout": "boxed" },
+      "elements": [
+        {
+          "id": "col0018",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "wid0026", "elType": "widget", "widgetType": "heading", "settings": { "title": "Seguinos", "header_size": "h2", "align": "center" }, "elements": [] },
+            { "id": "wid0027", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style=\"text-align:center\">Toda la actualidad de la comunidad, también en tus redes favoritas.</p>" }, "elements": [] }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec0009",
+      "elType": "section",
+      "settings": { "layout": "boxed" },
+      "elements": [
+        {
+          "id": "col0019",
+          "elType": "column",
+          "settings": { "_column_size": 33 },
+          "elements": [
+            { "id": "wid0028", "elType": "widget", "widgetType": "button", "settings": { "text": "Instagram", "align": "center", "link": { "url": "https://www.instagram.com/iglesiadelacompania/", "is_external": "true" } }, "elements": [] }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0020",
+          "elType": "column",
+          "settings": { "_column_size": 33 },
+          "elements": [
+            { "id": "wid0029", "elType": "widget", "widgetType": "button", "settings": { "text": "Facebook", "align": "center", "link": { "url": "https://www.facebook.com/iglesiadelacompaniacordoba", "is_external": "true" } }, "elements": [] }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0021",
+          "elType": "column",
+          "settings": { "_column_size": 33 },
+          "elements": [
+            { "id": "wid0030", "elType": "widget", "widgetType": "button", "settings": { "text": "YouTube", "align": "center", "link": { "url": "https://www.youtube.com/@IglesiaCompaniaDeJesusCba", "is_external": "true" } }, "elements": [] }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec0010",
+      "elType": "section",
+      "settings": { "layout": "boxed" },
+      "elements": [
+        {
+          "id": "col0022",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            {
+              "id": "wid0031",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"ihs-audio-facade\" data-embed-src=\"https://open.spotify.com/embed/show/0miJYrwL4VSg73QMCIYptw?utm_source=generator\" role=\"button\" tabindex=\"0\" aria-label=\"Cargar reproductor de Spotify\" style=\"margin:1.25rem auto;display:inline-flex;align-items:center;gap:.75rem;background:#fff;border:1px solid #e6dcc9;border-radius:10px;padding:.9rem 1.4rem;cursor:pointer;max-width:100%\"><span aria-hidden=\"true\" style=\"width:28px;height:28px;border-radius:50%;background:#1db954;flex-shrink:0\"></span><span style=\"font-weight:600\">Escuchá nuestro programa en Spotify</span></div><script>(function(){var f=document.currentScript.previousElementSibling;function load(){var s=f.getAttribute('data-embed-src');if(!s||f.querySelector('iframe'))return;var i=document.createElement('iframe');i.src=s;i.title='Spotify';i.loading='lazy';i.allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';i.style.cssText='width:100%;max-width:420px;height:152px;border:0;border-radius:10px';f.appendChild(i);}f.addEventListener('click',load);f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();load();}});})();</script>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec0011",
+      "elType": "section",
+      "settings": { "layout": "boxed", "gap": "extended" },
+      "elements": [
+        {
+          "id": "col0023",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            { "id": "wid0032", "elType": "widget", "widgetType": "heading", "settings": { "title": "Cómo llegar", "header_size": "h2" }, "elements": [] },
+            { "id": "wid0033", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Obispo Trejo y Caseros, Córdoba Capital.</p>" }, "elements": [] },
+            { "id": "wid0034", "elType": "widget", "widgetType": "button", "settings": { "text": "Abrir en Google Maps", "link": { "url": "https://www.google.com/maps/search/?api=1&query=Iglesia+de+la+Compa%C3%B1%C3%ADa+de+Jes%C3%BAs+Cordoba", "is_external": "true" } }, "elements": [] }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col0024",
+          "elType": "column",
+          "settings": { "_column_size": 50 },
+          "elements": [
+            {
+              "id": "wid0035",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div style=\"border-radius:10px;overflow:hidden;border:1px solid #e6dcc9\"><iframe src=\"https://maps.google.com/maps?q=Iglesia%20de%20la%20Compa%C3%B1%C3%ADa%20de%20Jes%C3%BAs%2C%20Obispo%20Trejo%2C%20C%C3%B3rdoba&z=17&output=embed\" title=\"Mapa: Iglesia de la Compañía de Jesús, Córdoba\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\" width=\"100%\" height=\"400\" style=\"border:0;display:block\"></iframe></div>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Inicio",
+  "type": "page"
+}
