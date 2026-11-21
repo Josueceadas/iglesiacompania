@@ -1,0 +1,79 @@
+<!--
+  HEADER CON MENÚ HAMBURGUESA (logo + navegación)
+  Autocontenido: CSS + HTML + JS. Pegar en un widget "HTML" de Elementor
+  (o en el header del sitio). Reemplazar LOGO_URL por la URL del logo
+  rectangular subido a la Biblioteca de Medios.
+  Escritorio (>= 860px): menú en línea. Móvil: botón hamburguesa.
+-->
+<style>
+.ihs-header{background:#fff;border-bottom:1px solid #e6dcc9;position:sticky;top:0;z-index:999;font-family:Roboto,Helvetica,Arial,sans-serif}
+.ihs-header__bar{display:flex;align-items:center;justify-content:space-between;max-width:1140px;margin:0 auto;padding:.6rem 1.25rem}
+.ihs-header__logo img{width:200px;height:auto;display:block}
+.ihs-toggle{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:.6rem;cursor:pointer}
+.ihs-toggle span{width:26px;height:2px;background:#4d0f19;transition:transform .2s,opacity .2s}
+.ihs-toggle[aria-expanded=true] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.ihs-toggle[aria-expanded=true] span:nth-child(2){opacity:0}
+.ihs-toggle[aria-expanded=true] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.ihs-nav{position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid #e6dcc9;display:none}
+.ihs-nav.is-open{display:block}
+.ihs-nav ul{list-style:none;margin:0;padding:.5rem 1.25rem 1rem;display:flex;flex-direction:column}
+.ihs-nav a{display:block;padding:.7rem 0;color:#2b2420;font-weight:600;text-decoration:none;border-bottom:1px solid #f1e9db}
+.ihs-nav li:last-child a{border-bottom:0}
+.ihs-nav a:hover,.ihs-nav a:focus-visible{color:#6e1423}
+.ihs-nav a[aria-current=page]{color:#6e1423;box-shadow:inset 3px 0 0 #c9a24b;padding-left:.75rem}
+@media (min-width:860px){
+  .ihs-toggle{display:none}
+  .ihs-nav{position:static;display:block;border-bottom:0;background:none}
+  .ihs-nav ul{flex-direction:row;gap:1.75rem;padding:0}
+  .ihs-nav a{padding:.4rem 0;border-bottom:2px solid transparent}
+  .ihs-nav a:hover{border-bottom-color:#c9a24b}
+  .ihs-nav a[aria-current=page]{box-shadow:none;padding-left:0;border-bottom-color:#c9a24b}
+}
+</style>
+<header class="ihs-header">
+  <div class="ihs-header__bar">
+    <a class="ihs-header__logo" href="/"><img src="LOGO_URL" alt="Iglesia de la Compañía de Jesús - Córdoba" width="200" height="47"></a>
+    <button class="ihs-toggle" aria-expanded="false" aria-controls="ihs-nav" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    <nav id="ihs-nav" class="ihs-nav" aria-label="Menú principal">
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/quienes-somos/">Quiénes somos</a></li>
+        <li><a href="/contacto/">Contacto</a></li>
+        <li><a href="/prevencion-de-abusos/">Prevención de abusos</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<script>
+(function(){
+  var h=document.currentScript.previousElementSibling;
+  var b=h.querySelector('.ihs-toggle'),n=h.querySelector('.ihs-nav');
+  function set(o){n.classList.toggle('is-open',o);b.setAttribute('aria-expanded',String(o));b.setAttribute('aria-label',o?'Cerrar menú':'Abrir menú');}
+  b.addEventListener('click',function(){set(!n.classList.contains('is-open'));});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false);});
+  document.addEventListener('click',function(e){if(!h.contains(e.target))set(false);});
+  var p=location.pathname.replace(/\/+$/,'')||'/';
+  n.querySelectorAll('a').forEach(function(a){
+    var u=new URL(a.href,location.href).pathname.replace(/\/+$/,'')||'/';
+    if(u===p)a.setAttribute('aria-current','page');
+  });
+})();
+</script>
+<!-- Botón "Volver arriba": aparece al bajar la página -->
+<style>
+.ihs-top{position:fixed;right:1.25rem;bottom:1.25rem;z-index:998;width:48px;height:48px;border-radius:50%;background:#6e1423;color:#c9a24b;border:2px solid #c9a24b;display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0;box-shadow:0 4px 14px rgba(0,0,0,.25);opacity:0;visibility:hidden;transform:translateY(12px);transition:opacity .25s,transform .25s,visibility .25s,background .2s,color .2s}
+.ihs-top.is-visible{opacity:1;visibility:visible;transform:none}
+.ihs-top:hover,.ihs-top:focus-visible{background:#c9a24b;color:#6e1423}
+</style>
+<button type="button" class="ihs-top" aria-label="Volver arriba" title="Volver arriba"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 15l7-7 7 7"/></svg></button>
+<script>
+(function(){
+  var t=document.currentScript.previousElementSibling;
+  function check(){t.classList.toggle('is-visible',window.scrollY>400);}
+  window.addEventListener('scroll',check,{passive:true});check();
+  t.addEventListener('click',function(){
+    var calm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({top:0,behavior:calm?'auto':'smooth'});
+  });
+})();
+</script>

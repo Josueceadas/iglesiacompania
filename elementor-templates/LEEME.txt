@@ -46,6 +46,18 @@ Pasos para importar cada página
    plantilla) → "My Templates" → elegí la plantilla recién importada
    → Insert. Reemplaza el contenido viejo de la página por el nuevo.
 
+Header con menú hamburguesa
+----------------------------
+header-menu.html es el header (logo + menú). En escritorio muestra el menú
+en línea; en celular, el botón hamburguesa. Para usarlo en el sitio real:
+agregá un widget "HTML" en el header de Elementor, pegá el contenido de
+ese archivo y reemplazá LOGO_URL por la URL del logo rectangular subido
+a Medios. Los links asumen estos slugs: /, /quienes-somos/, /contacto/,
+/prevencion-de-abusos/ (ajustarlos si en el sitio real son distintos).
+Ese mismo archivo incluye el botón flotante "Volver arriba" (aparece al
+bajar 400 px), así que sale en todas las páginas con un solo pegado.
+Si el sitio ya tiene su propio menú, no hace falta pegarlo.
+
 Un consejo: hacelo primero en un WordPress de prueba (local, con la
 app "Local"), no directo en el sitio real, hasta confirmar que se ve
 bien y que arreglamos la inyección de malware que encontramos en el

@@ -1,9 +1,26 @@
 {
   "content": [
     {
+      "id": "hero0001",
+      "elType": "section",
+      "settings": { "layout": "full_width", "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true } },
+      "elements": [
+        {
+          "id": "hero0002",
+          "elType": "column",
+          "settings": { "_column_size": 100 },
+          "elements": [
+            { "id": "hero0003", "elType": "widget", "widgetType": "html", "settings": { "html": "\u003cstyle\u003e\n.ihs-hero{font-family:Roboto,Helvetica,Arial,sans-serif;position:relative;min-height:620px;overflow:hidden;background:#4d0f19 url(\u0027https://i.ytimg.com/vi/feqprnyI7m0/hqdefault.jpg\u0027) center/cover no-repeat;display:flex;align-items:center;color:#faf6f0}\n.ihs-hero__bg{position:absolute;inset:0;overflow:hidden;pointer-events:none}\n.ihs-hero__bg iframe{position:absolute;top:50%;left:50%;width:max(100%,1102px);aspect-ratio:16/9;height:auto;border:0;transform:translate(-50%,-50%) scale(1.12);opacity:0;transition:opacity 1s}\n.ihs-hero__bg iframe.is-ready{opacity:1}\n.ihs-hero::after{content:\u0027\u0027;position:absolute;inset:0;background:linear-gradient(90deg,rgba(77,15,25,.92) 0%,rgba(77,15,25,.65) 50%,rgba(77,15,25,.25) 100%);pointer-events:none}\n.ihs-hero__in{position:relative;z-index:2;width:100%;max-width:1140px;margin:0 auto;padding:3rem 1.25rem}\n.ihs-hero__txt{max-width:560px}\n.ihs-hero__kicker{color:#c9a24b;text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;font-weight:700;margin:0 0 .75rem}\n.ihs-hero h1{font-family:'Roboto Slab',Georgia,serif;font-weight:600;color:#fff;font-size:clamp(2rem,5vw,3.4rem);line-height:1.12;margin:0 0 1rem;text-shadow:0 2px 12px rgba(0,0,0,.35)}\n.ihs-hero__sub{font-size:1.15rem;margin:0 0 1.75rem;color:#f1e6d6}\n.ihs-hero__btns{display:flex;flex-wrap:wrap;gap:.9rem}\n.ihs-hero__btn{display:inline-flex;align-items:center;gap:.5rem;background:#c9a24b;color:#4d0f19;font-weight:700;padding:.8rem 1.6rem;border-radius:6px;text-decoration:none;border:2px solid #c9a24b;cursor:pointer;font-size:1rem;font-family:inherit;transition:background .2s,color .2s,transform .2s}\n.ihs-hero__btn:hover,.ihs-hero__btn:focus-visible{background:#fff;border-color:#fff;transform:translateY(-2px)}\n.ihs-hero__btn--ghost{background:transparent;color:#fff}\n.ihs-hero__btn--ghost:hover,.ihs-hero__btn--ghost:focus-visible{background:#c9a24b;border-color:#c9a24b;color:#4d0f19}\n.ihs-lb{position:fixed;inset:0;z-index:10000;background:rgba(20,5,8,.92);display:none;align-items:center;justify-content:center;padding:1.25rem}\n.ihs-lb.is-open{display:flex}\n.ihs-lb__box{position:relative;width:min(1100px,100%);aspect-ratio:16/9;background:#000;border:2px solid #c9a24b;border-radius:12px;overflow:hidden}\n.ihs-lb__box iframe{position:absolute;inset:0;width:100%;height:100%;border:0}\n.ihs-lb__x{position:absolute;top:1rem;right:1.25rem;background:#c9a24b;color:#4d0f19;border:0;border-radius:50%;width:44px;height:44px;font-size:1.6rem;line-height:1;cursor:pointer}\n@media (max-width:859px){.ihs-hero{min-height:560px}.ihs-hero::after{background:linear-gradient(180deg,rgba(77,15,25,.8),rgba(77,15,25,.7))}}\n@media (prefers-reduced-motion:reduce){.ihs-hero__bg{display:none}}\n\u003c/style\u003e\n\u003csection class=\u0027ihs-hero\u0027 aria-label=\u0027Bienvenida\u0027\u003e\n\u003cdiv class=\u0027ihs-hero__bg\u0027 aria-hidden=\u0027true\u0027 data-src=\u0027https://www.youtube-nocookie.com/embed/feqprnyI7m0?autoplay=1\u0026mute=1\u0026loop=1\u0026playlist=feqprnyI7m0\u0026controls=0\u0026modestbranding=1\u0026rel=0\u0026playsinline=1\u0026disablekb=1\u0026iv_load_policy=3\u0027\u003e\u003c/div\u003e\n\u003cdiv class=\u0027ihs-hero__in\u0027\u003e\u003cdiv class=\u0027ihs-hero__txt\u0027\u003e\n\u003cp class=\u0027ihs-hero__kicker\u0027\u003eCórdoba · Jesuitas ARU\u003c/p\u003e\n\u003ch1\u003eIglesia de la Compañía de Jesús\u003c/h1\u003e\n\u003cp class=\u0027ihs-hero__sub\u0027\u003eBienvenidos a nuestra comunidad.\u003c/p\u003e\n\u003cdiv class=\u0027ihs-hero__btns\u0027\u003e\n\u003ca class=\u0027ihs-hero__btn\u0027 href=\u0027#avisos\u0027\u003eVer avisos\u003c/a\u003e\n\u003cbutton type=\u0027button\u0027 class=\u0027ihs-hero__btn ihs-hero__btn--ghost\u0027 data-open-video\u003e\u003csvg width=\u002718\u0027 height=\u002718\u0027 viewBox=\u00270 0 24 24\u0027 fill=\u0027currentColor\u0027 aria-hidden=\u0027true\u0027\u003e\u003cpath d=\u0027M8 5v14l11-7z\u0027/\u003e\u003c/svg\u003eVer con sonido\u003c/button\u003e\n\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n\u003cdiv class=\u0027ihs-lb\u0027 role=\u0027dialog\u0027 aria-modal=\u0027true\u0027 aria-label=\u0027Video: Iglesia de la Compañía de Jesús\u0027\u003e\u003cdiv class=\u0027ihs-lb__box\u0027\u003e\u003c/div\u003e\u003cbutton type=\u0027button\u0027 class=\u0027ihs-lb__x\u0027 aria-label=\u0027Cerrar video\u0027\u003e\u0026times;\u003c/button\u003e\u003c/div\u003e\n\u003c/section\u003e\n\u003cscript\u003e(function(){var h=document.currentScript.previousElementSibling;var bg=h.querySelector(\u0027.ihs-hero__bg\u0027),lb=h.querySelector(\u0027.ihs-lb\u0027),box=h.querySelector(\u0027.ihs-lb__box\u0027);\nif(!window.matchMedia(\u0027(prefers-reduced-motion: reduce)\u0027).matches){var i=document.createElement(\u0027iframe\u0027);i.src=bg.dataset.src;i.title=\u0027\u0027;i.tabIndex=-1;i.allow=\u0027autoplay; encrypted-media\u0027;i.onload=function(){setTimeout(function(){i.classList.add(\u0027is-ready\u0027)},1200)};bg.appendChild(i);}\nfunction open(){box.innerHTML=\u0027\u003ciframe src=\"https://www.youtube-nocookie.com/embed/feqprnyI7m0?autoplay=1\u0026rel=0\" title=\"Iglesia de la Compañía de Jesús, Córdoba\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen\u003e\u003c/iframe\u003e\u0027;lb.classList.add(\u0027is-open\u0027);if(bg.firstChild)bg.firstChild.remove();}\nfunction close(){lb.classList.remove(\u0027is-open\u0027);box.innerHTML=\u0027\u0027;if(!bg.firstChild\u0026\u0026!window.matchMedia(\u0027(prefers-reduced-motion: reduce)\u0027).matches){var i=document.createElement(\u0027iframe\u0027);i.src=bg.dataset.src;i.title=\u0027\u0027;i.tabIndex=-1;i.allow=\u0027autoplay; encrypted-media\u0027;i.className=\u0027is-ready\u0027;bg.appendChild(i);}}\nh.querySelector(\u0027[data-open-video]\u0027).addEventListener(\u0027click\u0027,open);h.querySelector(\u0027.ihs-lb__x\u0027).addEventListener(\u0027click\u0027,close);\nlb.addEventListener(\u0027click\u0027,function(e){if(e.target===lb)close()});document.addEventListener(\u0027keydown\u0027,function(e){if(e.key===\u0027Escape\u0027\u0026\u0026lb.classList.contains(\u0027is-open\u0027))close()});})();\u003c/script\u003e" }, "elements": [] }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
       "id": "sec0001",
       "elType": "section",
-      "settings": { "layout": "boxed" },
+      "settings": { "layout": "boxed", "_element_id": "avisos" },
       "elements": [
         {
           "id": "col0001",
@@ -14,7 +31,7 @@
               "id": "wid0001",
               "elType": "widget",
               "widgetType": "heading",
-              "settings": { "title": "Avisos", "header_size": "h2" },
+              "settings": { "typography_typography": "custom", "typography_font_family": "Roboto Slab", "typography_font_weight": "600", "title": "Avisos", "header_size": "h2" },
               "elements": []
             }
           ],
@@ -181,7 +198,7 @@
           "elType": "column",
           "settings": { "_column_size": 50 },
           "elements": [
-            { "id": "wid0012", "elType": "widget", "widgetType": "heading", "settings": { "title": "Misa Diaria", "header_size": "h2" }, "elements": [] },
+            { "id": "wid0012", "elType": "widget", "widgetType": "heading", "settings": { "typography_typography": "custom", "typography_font_family": "Roboto Slab", "typography_font_weight": "600", "title": "Misa Diaria", "header_size": "h2" }, "elements": [] },
             { "id": "wid0013", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Acompañanos en la celebración de la Eucaristía. Podés seguirla en vivo o ver la última misa transmitida.</p>" }, "elements": [] },
             { "id": "wid0014", "elType": "widget", "widgetType": "button", "settings": { "text": "Ver canal de YouTube", "link": { "url": "https://www.youtube.com/@IglesiaCompaniaDeJesusCba", "is_external": "true", "nofollow": "" } }, "elements": [] }
           ],
@@ -261,7 +278,7 @@
           "elType": "column",
           "settings": { "_column_size": 50 },
           "elements": [
-            { "id": "wid0020", "elType": "widget", "widgetType": "heading", "settings": { "title": "Espiritualidad", "header_size": "h2" }, "elements": [] },
+            { "id": "wid0020", "elType": "widget", "widgetType": "heading", "settings": { "typography_typography": "custom", "typography_font_family": "Roboto Slab", "typography_font_weight": "600", "title": "Espiritualidad", "header_size": "h2" }, "elements": [] },
             { "id": "wid0021", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Recursos para la oración personal y comunitaria, propuestas ignacianas y reflexiones para acompañar el camino de fe.</p>" }, "elements": [] }
           ],
           "isInner": false
@@ -296,7 +313,7 @@
           "elType": "column",
           "settings": { "_column_size": 50 },
           "elements": [
-            { "id": "wid0023", "elType": "widget", "widgetType": "heading", "settings": { "title": "Rezamos con el Papa León", "header_size": "h2" }, "elements": [] },
+            { "id": "wid0023", "elType": "widget", "widgetType": "heading", "settings": { "typography_typography": "custom", "typography_font_family": "Roboto Slab", "typography_font_weight": "600", "title": "Rezamos con el Papa León", "header_size": "h2" }, "elements": [] },
             { "id": "wid0024", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Catequesis, audiencias y mensajes del Santo Padre, en videos que se actualizan solos a medida que salen nuevos.</p>" }, "elements": [] }
           ],
           "isInner": false
@@ -331,7 +348,7 @@
           "elType": "column",
           "settings": { "_column_size": 100 },
           "elements": [
-            { "id": "wid0026", "elType": "widget", "widgetType": "heading", "settings": { "title": "Seguinos", "header_size": "h2", "align": "center" }, "elements": [] },
+            { "id": "wid0026", "elType": "widget", "widgetType": "heading", "settings": { "typography_typography": "custom", "typography_font_family": "Roboto Slab", "typography_font_weight": "600", "title": "Seguinos", "header_size": "h2", "align": "center" }, "elements": [] },
             { "id": "wid0027", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style=\"text-align:center\">Toda la actualidad de la comunidad, también en tus redes favoritas.</p>" }, "elements": [] }
           ],
           "isInner": false
@@ -347,27 +364,9 @@
         {
           "id": "col0019",
           "elType": "column",
-          "settings": { "_column_size": 33 },
+          "settings": { "_column_size": 100 },
           "elements": [
-            { "id": "wid0028", "elType": "widget", "widgetType": "button", "settings": { "text": "Instagram", "align": "center", "link": { "url": "https://www.instagram.com/iglesiadelacompania/", "is_external": "true" } }, "elements": [] }
-          ],
-          "isInner": false
-        },
-        {
-          "id": "col0020",
-          "elType": "column",
-          "settings": { "_column_size": 33 },
-          "elements": [
-            { "id": "wid0029", "elType": "widget", "widgetType": "button", "settings": { "text": "Facebook", "align": "center", "link": { "url": "https://www.facebook.com/iglesiadelacompaniacordoba", "is_external": "true" } }, "elements": [] }
-          ],
-          "isInner": false
-        },
-        {
-          "id": "col0021",
-          "elType": "column",
-          "settings": { "_column_size": 33 },
-          "elements": [
-            { "id": "wid0030", "elType": "widget", "widgetType": "button", "settings": { "text": "YouTube", "align": "center", "link": { "url": "https://www.youtube.com/@IglesiaCompaniaDeJesusCba", "is_external": "true" } }, "elements": [] }
+            { "id": "wid0028", "elType": "widget", "widgetType": "html", "settings": { "html": "\u003cstyle\u003e.ihs-social{display:flex;justify-content:center;gap:1.25rem;margin:1.25rem 0 .5rem}.ihs-social a{width:56px;height:56px;border-radius:50%;background:#6e1423;color:#c9a24b;display:inline-flex;align-items:center;justify-content:center;border:2px solid #c9a24b;transition:background .2s,color .2s,transform .2s}.ihs-social a:hover,.ihs-social a:focus-visible{background:#c9a24b;color:#6e1423;transform:translateY(-2px)}\u003c/style\u003e\n\u003cdiv class=\u0027ihs-social\u0027\u003e\n\u003ca href=\u0027https://www.instagram.com/iglesiadelacompania/\u0027 target=\u0027_blank\u0027 rel=\u0027noopener\u0027 aria-label=\u0027Instagram\u0027 title=\u0027Instagram\u0027\u003e\u003csvg width=\u002726\u0027 height=\u002726\u0027 viewBox=\u00270 0 24 24\u0027 fill=\u0027none\u0027 stroke=\u0027currentColor\u0027 stroke-width=\u00272\u0027 stroke-linecap=\u0027round\u0027 stroke-linejoin=\u0027round\u0027 aria-hidden=\u0027true\u0027\u003e\u003crect x=\u00273\u0027 y=\u00273\u0027 width=\u002718\u0027 height=\u002718\u0027 rx=\u00275\u0027/\u003e\u003ccircle cx=\u002712\u0027 cy=\u002712\u0027 r=\u00274\u0027/\u003e\u003ccircle cx=\u002717.5\u0027 cy=\u00276.5\u0027 r=\u0027.7\u0027 fill=\u0027currentColor\u0027/\u003e\u003c/svg\u003e\u003c/a\u003e\n\u003ca href=\u0027https://www.facebook.com/iglesiadelacompaniacordoba\u0027 target=\u0027_blank\u0027 rel=\u0027noopener\u0027 aria-label=\u0027Facebook\u0027 title=\u0027Facebook\u0027\u003e\u003csvg width=\u002726\u0027 height=\u002726\u0027 viewBox=\u00270 0 24 24\u0027 fill=\u0027currentColor\u0027 aria-hidden=\u0027true\u0027\u003e\u003cpath d=\u0027M13.5 22v-8.5h2.9l.5-3.5h-3.4V7.9c0-1 .3-1.7 1.7-1.7h1.8V3.1C16.7 3 15.7 3 14.5 3 12 3 10.2 4.5 10.2 7.3V10H7.3v3.5h2.9V22h3.3z\u0027/\u003e\u003c/svg\u003e\u003c/a\u003e\n\u003ca href=\u0027https://www.youtube.com/@IglesiaCompaniaDeJesusCba\u0027 target=\u0027_blank\u0027 rel=\u0027noopener\u0027 aria-label=\u0027YouTube\u0027 title=\u0027YouTube\u0027\u003e\u003csvg width=\u002728\u0027 height=\u002728\u0027 viewBox=\u00270 0 24 24\u0027 fill=\u0027currentColor\u0027 aria-hidden=\u0027true\u0027\u003e\u003cpath fill-rule=\u0027evenodd\u0027 d=\u0027M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3L10 15z\u0027/\u003e\u003c/svg\u003e\u003c/a\u003e\n\u003c/div\u003e" }, "elements": [] }
           ],
           "isInner": false
         }
@@ -389,7 +388,7 @@
               "elType": "widget",
               "widgetType": "html",
               "settings": {
-                "html": "<div class=\"ihs-audio-facade\" data-embed-src=\"https://open.spotify.com/embed/show/0miJYrwL4VSg73QMCIYptw?utm_source=generator\" role=\"button\" tabindex=\"0\" aria-label=\"Cargar reproductor de Spotify\" style=\"margin:1.25rem auto;display:inline-flex;align-items:center;gap:.75rem;background:#fff;border:1px solid #e6dcc9;border-radius:10px;padding:.9rem 1.4rem;cursor:pointer;max-width:100%\"><span aria-hidden=\"true\" style=\"width:28px;height:28px;border-radius:50%;background:#1db954;flex-shrink:0\"></span><span style=\"font-weight:600\">Escuchá nuestro programa en Spotify</span></div><script>(function(){var f=document.currentScript.previousElementSibling;function load(){var s=f.getAttribute('data-embed-src');if(!s||f.querySelector('iframe'))return;var i=document.createElement('iframe');i.src=s;i.title='Spotify';i.loading='lazy';i.allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';i.style.cssText='width:100%;max-width:420px;height:152px;border:0;border-radius:10px';f.appendChild(i);}f.addEventListener('click',load);f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();load();}});})();</script>"
+                "html": "\u003cstyle\u003e.ihs-audio-facade{font-family:Roboto,Helvetica,Arial,sans-serif;display:flex;align-items:center;gap:1rem;max-width:480px;width:100%;margin:1.5rem auto;padding:1rem 1.4rem;background:#6e1423;color:#faf6f0;border:2px solid #c9a24b;border-radius:14px;cursor:pointer;box-sizing:border-box;transition:transform .2s,box-shadow .2s}.ihs-audio-facade:hover,.ihs-audio-facade:focus-visible{transform:translateY(-2px);box-shadow:0 8px 20px rgba(110,20,35,.25)}.ihs-audio-facade small{display:block;color:#c9a24b;text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;font-weight:700}.ihs-audio-facade strong{display:block;font-size:1.05rem;line-height:1.3}.ihs-audio-facade.is-loaded{padding:0;background:transparent;border:0;cursor:default}.ihs-audio-facade.is-loaded:hover{transform:none;box-shadow:none}\u003c/style\u003e\n\u003cdiv class=\u0027ihs-audio-facade\u0027 data-embed-src=\u0027https://open.spotify.com/embed/show/0miJYrwL4VSg73QMCIYptw?utm_source=generator\u0027 role=\u0027button\u0027 tabindex=\u00270\u0027 aria-label=\u0027Cargar reproductor de Spotify\u0027\u003e\u003csvg width=\u002748\u0027 height=\u002748\u0027 viewBox=\u00270 0 24 24\u0027 aria-hidden=\u0027true\u0027 style=\u0027flex-shrink:0\u0027\u003e\u003ccircle cx=\u002712\u0027 cy=\u002712\u0027 r=\u002712\u0027 fill=\u0027#1db954\u0027/\u003e\u003cpath d=\u0027M5.6 9.2c4.2-1.2 9.2-.9 12.9 1.3\u0027 fill=\u0027none\u0027 stroke=\u0027#fff\u0027 stroke-width=\u00271.9\u0027 stroke-linecap=\u0027round\u0027/\u003e\u003cpath d=\u0027M6.4 12.5c3.5-1 7.6-.7 10.7 1.1\u0027 fill=\u0027none\u0027 stroke=\u0027#fff\u0027 stroke-width=\u00271.6\u0027 stroke-linecap=\u0027round\u0027/\u003e\u003cpath d=\u0027M7.2 15.6c2.8-.8 5.9-.5 8.4.9\u0027 fill=\u0027none\u0027 stroke=\u0027#fff\u0027 stroke-width=\u00271.3\u0027 stroke-linecap=\u0027round\u0027/\u003e\u003c/svg\u003e\u003cspan style=\u0027flex:1\u0027\u003e\u003csmall\u003ePodcast\u003c/small\u003e\u003cstrong\u003eEscuchá nuestro programa en Spotify\u003c/strong\u003e\u003c/span\u003e\u003cspan aria-hidden=\u0027true\u0027 style=\u0027width:40px;height:40px;border-radius:50%;background:#c9a24b;color:#6e1423;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0\u0027\u003e\u003csvg width=\u002718\u0027 height=\u002718\u0027 viewBox=\u00270 0 24 24\u0027 fill=\u0027currentColor\u0027\u003e\u003cpath d=\u0027M8 5v14l11-7z\u0027/\u003e\u003c/svg\u003e\u003c/span\u003e\u003c/div\u003e\n\u003cscript\u003e(function(){var f=document.currentScript.previousElementSibling;function load(){var s=f.getAttribute(\u0027data-embed-src\u0027);if(!s||f.querySelector(\u0027iframe\u0027))return;f.innerHTML=\u0027\u0027;f.classList.add(\u0027is-loaded\u0027);var i=document.createElement(\u0027iframe\u0027);i.src=s;i.title=\u0027Spotify\u0027;i.loading=\u0027lazy\u0027;i.allow=\u0027autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\u0027;i.style.cssText=\u0027width:100%;height:152px;border:0;border-radius:12px\u0027;f.appendChild(i);}f.addEventListener(\u0027click\u0027,load);f.addEventListener(\u0027keydown\u0027,function(e){if(e.key===\u0027Enter\u0027||e.key===\u0027 \u0027){e.preventDefault();load();}});})();\u003c/script\u003e"
               },
               "elements": []
             }
@@ -409,7 +408,7 @@
           "elType": "column",
           "settings": { "_column_size": 50 },
           "elements": [
-            { "id": "wid0032", "elType": "widget", "widgetType": "heading", "settings": { "title": "Cómo llegar", "header_size": "h2" }, "elements": [] },
+            { "id": "wid0032", "elType": "widget", "widgetType": "heading", "settings": { "typography_typography": "custom", "typography_font_family": "Roboto Slab", "typography_font_weight": "600", "title": "Cómo llegar", "header_size": "h2" }, "elements": [] },
             { "id": "wid0033", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p>Obispo Trejo y Caseros, Córdoba Capital.</p>" }, "elements": [] },
             { "id": "wid0034", "elType": "widget", "widgetType": "button", "settings": { "text": "Abrir en Google Maps", "link": { "url": "https://www.google.com/maps/search/?api=1&query=Iglesia+de+la+Compa%C3%B1%C3%ADa+de+Jes%C3%BAs+Cordoba", "is_external": "true" } }, "elements": [] }
           ],

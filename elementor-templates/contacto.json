@@ -10,7 +10,7 @@
           "elType": "column",
           "settings": { "_column_size": 100 },
           "elements": [
-            { "id": "ct0003", "elType": "widget", "widgetType": "heading", "settings": { "title": "Contacto", "header_size": "h1", "title_color": "#FFFFFF" }, "elements": [] }
+            { "id": "ct0003", "elType": "widget", "widgetType": "heading", "settings": { "typography_typography": "custom", "typography_font_family": "Roboto Slab", "typography_font_weight": "600", "title": "Contacto", "header_size": "h1", "title_color": "#FFFFFF" }, "elements": [] }
           ],
           "isInner": false
         }
